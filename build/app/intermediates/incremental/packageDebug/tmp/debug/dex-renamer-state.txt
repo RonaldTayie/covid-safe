@@ -1,0 +1,4 @@
+#Mon Jun 29 04:22:56 CAT 2020
+base.0=C\:\\Users\\Developer\\Documents\\projects\\apps\\covidsafe\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
