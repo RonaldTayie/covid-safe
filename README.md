@@ -1,16 +1,23 @@
-# covidsafe
+covid-safe
 
-A new Flutter application.
+In my journey to learn Flutter I decided to put together an app that shows the
+latest covid stats of every country and to serve RSS news feed to the app.
+The app had relies on an API which on request scraps the https://www.worldometers.info/coronavirus/ 
+website and serve the data from the tables as Json to the app.
 
-## Getting Started
+# Tools (Packages)
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+The flutter app uses the following packages:
+1). HTTP 
+        -> For making web requests and pulling flag images from https://www.flags.io/ and RSS feeds from news websites including SABC, AlJezeera and AfricaTime
+2).  MDI (Material Design Icons) 
+        -> MDI for extra icons that are not available in the default icon set
+3). WEBFEED 
+        -> WEBFEED is used to open in-app browser windows to serve the News feeds.
+4). CACHEDNETWORKIMAGE 
+        -> Used to cache the country flag images (Plugin could not work properly)
+5). CONNECTIVITY 
+        -> CONNECTIVITY is used to check whether or not there is an networ or internet 
+        connection to either pull new data from sources or serve the data stored in the previous session.
+URL_LAUNCHER 
+        -> URL_LAUNCHER is used to launch the WEBFEED to serve news feed.
