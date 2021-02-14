@@ -10,7 +10,8 @@ website and serve the data from the tables as Json to the app.
 The flutter app uses the following packages:
 
 # 1). HTTP 
-        -> For making web requests and pulling flag images from https://www.flags.io/ and RSS feeds from news websites including SABC, AlJezeera and AfricaTime
+        -> For making web requests and pulling flag images from https://www.flags.io/ and 
+        RSS feeds from news websites including SABC, AlJezeera and AfricaTime
 
 # 2).  MDI (Material Design Icons) 
         -> MDI for extra icons that are not available in the default icon set
