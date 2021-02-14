@@ -1,4 +1,4 @@
-COVID-SAFE
+# COVID-SAFE
 
 In my journey to learn Flutter I decided to put together an app that shows the
 latest covid stats of every country and to serve RSS news feed to the app.
